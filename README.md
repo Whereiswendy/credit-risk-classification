@@ -1,7 +1,7 @@
 # credit-risk-classification
 Repository for analysing loan risk prediction using logistic regression on historical lending data.
 
-[Placeholder for main text]
+[Placeholder for main text and image] - Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the  `README.md`  file included in your GitHub repository.
 
 ---
 **Annexure 1** - These are the instructions provided as part of the course:
@@ -27,7 +27,7 @@ Repository for analysing loan risk prediction using logistic regression on histo
 > 
 > Download the following files to help you get started:
 > 
-> -   [Module 20 Challenge filesLinks to an external site.](https://static.bc-edx.com/data/dla-1-2/m20/lms/starter/Starter_Code.zip)
+> -   [Module 20 Challenge files](https://static.bc-edx.com/data/dla-1-2/m20/lms/starter/Starter_Code.zip)
 > 
 > ### Instructions
 > 
