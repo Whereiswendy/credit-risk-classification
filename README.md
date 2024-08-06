@@ -66,8 +66,9 @@ To use the credit rating prediction model, follow these steps:
    ```
 
 4. **Run the model:**
+   Start Jupyter Notebook and open credit_risk_classification.ipynb to view and execute the analysis step by step.
    ```sh
-   python predict.py --input data/input.csv --output data/output.csv
+   jupyter notebook
    ```
 
 ## Contributors
