@@ -52,7 +52,7 @@ To use the credit rating prediction model, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone [repository URL]
+   git clone https://github.com/Whereiswendy/credit-risk-classification.git
    ```
 
 2. **Navigate to the project directory:**
