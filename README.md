@@ -13,7 +13,7 @@
 The purpose of this analysis was to build and evaluate a logistic regression model to predict the eligibility of borrowers based on historical lending data. The dataset included financial information such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. The target variable was `loan_status`, where `0` indicates a healthy loan and `1` indicates a high-risk loan.
 
 ## Data
-The [dataset]() used for this project includes the following features:
+The [dataset](https://github.com/Whereiswendy/credit-risk-classification/tree/main/Resources) used for this project includes the following features:
 - **Loan Size**
 - **Interest Rate**
 - **Borrower Income**
