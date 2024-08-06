@@ -1,7 +1,5 @@
 # Credit Rating Prediction Challenge
-Repository for analysing loan risk prediction using logistic regression on historical lending data.
 
----
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Data](#data)
@@ -12,48 +10,42 @@ Repository for analysing loan risk prediction using logistic regression on histo
 7. [License](#license)
 
 ## Project Overview
-The Credit Rating Prediction Challenge aims to predict the credit rating of individuals using logistic regression. This project utilises a dataset containing various features related to the financial history and credit behavior of individuals to develop a model that can accurately classify their credit rating.
+The purpose of this analysis was to build and evaluate a logistic regression model to predict the eligibility of borrowers based on historical lending data. The dataset included financial information such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. The target variable was `loan_status`, where `0` indicates a healthy loan and `1` indicates a high-risk loan.
 
 ## Data
-The dataset used for this project includes features such as:
-- **Age:** Age of the individual
-- **Income:** Annual income of the individual
-- **Loan Amount:** Amount of loan applied for
-- **Credit History:** Record of past credit behavior
-- **Employment Status:** Employment status of the individual
-- **Other Relevant Features**
-
-The data is cleaned and preprocessed to handle missing values, outliers, and categorical variables.
+The [dataset]() used for this project includes the following features:
+- **Loan Size**
+- **Interest Rate**
+- **Borrower Income**
+- **Debt-to-Income Ratio**
+- **Number of Accounts**
+- **Derogatory Marks**
+- **Total Debt**
 
 ## Methodology
-1. **Data Preprocessing:**
-   - Handling missing values
-   - Encoding categorical variables
-   - Normalizing numerical features
-
-2. **Exploratory Data Analysis (EDA):**
-   - Visualizing the distribution of features
-   - Analyzing correlations between features
-   - Identifying patterns and trends
-
-3. **Modeling:**
-   - Splitting the data into training and testing sets
-   - Training a logistic regression model
-   - Tuning hyperparameters for optimal performance
-
-4. **Evaluation:**
-   - Assessing model performance using metrics such as accuracy, precision, recall, and F1-score
-   - Analyzing the ROC curve and AUC
+The analysis followed these steps:
+1. **Data Preparation:** Loaded the dataset and examined its structure and summary statistics.
+2. **Data Scaling:** Scaled the features using `StandardScaler` to ensure all variables contribute equally to the model.
+3. **Data Splitting:** Split the data into training and testing sets using `train_test_split`.
+4. **Model Training:** Trained a logistic regression model on the training data.
+5. **Model Evaluation:** Evaluated the model using confusion matrix and classification report on the testing data.
 
 ## Results
-The logistic regression model achieved the following performance metrics on the test set:
-- **Accuracy:** X%
-- **Precision:** Y%
-- **Recall:** Z%
-- **F1-Score:** W%
-- **AUC:** V%
+The logistic regression model achieved the following performance metrics:
+- **Accuracy:** 99%
+- **Precision:**
+  - Healthy Loans (0): 100%
+  - High-Risk Loans (1): 86%
+- **Recall:**
+  - Healthy Loans (0): 99%
+  - High-Risk Loans (1): 98%
+- **F1-Score:**
+  - Healthy Loans (0): 100%
+  - High-Risk Loans (1): 92%
 
-The results indicate that the model performs well in predicting the credit rating of individuals, with balanced precision and recall values.
+The logistic regression model performed exceptionally well in predicting healthy loans with an accuracy of 99%. It showed near-perfect precision and recall for healthy loans, and high precision and recall for high-risk loans. The model is highly effective at identifying both healthy and high-risk loans, although it is slightly less precise for high-risk loans.
+
+**Recommendation:** The logistic regression model is recommended for predicting loan statuses due to its high accuracy and reliability in identifying both healthy and high-risk loans. It is especially important in this context to accurately identify high-risk loans to mitigate potential defaults, and the model achieves this with a recall of 98% for high-risk loans.
 
 ## Usage
 To use the credit rating prediction model, follow these steps:
@@ -79,14 +71,10 @@ To use the credit rating prediction model, follow these steps:
    ```
 
 ## Contributors
-- **Willow Ware** - [GitHub Profile](https://github.com/Whereiswendy)
+- **Wendy Ware** - [GitHub Profile](https://github.com/Whereiswendy)
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust the placeholders and add any additional details specific to your implementation and results. If you need further assistance, let me know!
+This project was done as part of edX Boot Camps LLC course, and is intended for educational purposes only.
 
 ---
 **Annexure 1** - These are the instructions provided as part of the course:
